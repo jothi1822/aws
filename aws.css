@@ -1,0 +1,188 @@
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Lato", sans-serif;
+}
+#navbar{
+display: block;
+position:sticky;
+top: 0;
+left: 0;
+z-index: 100;
+text-align: 20px;
+padding: .5rem 5rem;
+box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+background-color: rgb(252, 250, 247);
+}
+.navbar .navbar-brand{
+font-size: 15px;
+color: #0a0a0a !important;
+font-weight: 200;
+}
+#navbarsupportedcontent a{
+color: rgb(3, 3, 3);
+border-bottom: 2px solid transparent;
+}
+#navbarsupportedcontent a hover{
+border-bottom: 2px solid rgb(7, 0, 1);
+}
+
+#navbarsupportedcontent a {
+border-bottom: 2px solid transparent;
+    
+}
+#navbarsupportedcontent button{
+background-image: url(bg.jpg);
+width:5rem;
+border-radius: 15px;
+}
+.clearfix{
+    background-image: url('bg.jpg');
+    text-align: center;
+    color: #f7f3f3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-size: cover;
+    height: 600px;
+    
+
+}
+.clearfix img{ 
+background-size: cover;
+background-repeat: no-repeat;
+margin-top: 100px;
+border-radius: 20px;
+
+}
+.clearfix h1{ 
+font-weight: 1000;
+color:rgb(14, 12, 12)
+}
+   
+.skills  h1{
+font-size: 50px;
+letter-spacing: 2px;
+font-weight: 700;
+
+}
+
+.skills img{
+width: 200px;
+height: 200px;
+}
+.card{
+width: 250px;
+height: 350px;
+background: #e7f0f8e5 !important;
+border: none !important;
+box-shadow: #0a0a0a;
+            border-radius: 20px  !important;
+            overflow: hidden;
+            justify-content: center;
+            align-items: center;
+            margin: 20PX 60PX;
+
+}
+.card img{
+margin-top: 10px;
+width: 200px;
+height: 200px;
+}
+#skills>h1{
+        font-size: 50px;
+        letter-spacing: 2px;
+        font-weight: 700;
+        
+        text-align: center;
+        
+}
+.modules  h1{
+font-size: 50px;
+letter-spacing: 2px;
+font-weight: 700;
+display: block;
+text-align: center;
+
+}
+.syh{
+background-color: rgb(2, 4, 112);
+display: block;
+color: #f7f7fa;
+}
+.main {
+background-color: rgb(15, 1, 148);
+padding: 20px;
+display: none;
+
+}
+
+span:hover + div {
+display: block;
+margin-left:0px;
+}
+.certification h1{
+font-size: 50px;
+letter-spacing: 2px;
+font-weight: 700;
+text-align: center;
+color: rgb(14, 13, 13);
+}
+.certification img{
+margin-left: 300px;
+width: 200px;
+height: 200px;
+display: flex;
+color: rgb(3, 3, 3);
+margin-top: 20px;
+}
+.certification{
+background-color: #01023d;
+display: flex;
+color: #fcf8f8;
+
+
+
+}
+.para{
+margin-left: 30px;
+margin-top: 50px;
+color: rgb(251, 252, 252);
+
+}
+.learn img{
+height:550px;
+width: 550px;
+}
+#why{
+display: flex;
+text-align: center;
+margin:top 200px; 
+background-color: rgb(9, 2, 104);
+
+}
+.use{
+margin-top:50px;
+color: aliceblue;
+text-align: center;
+margin-left: 300px;
+}
+#w h1{
+font-size: 50px;
+letter-spacing: 2px;
+font-weight: 700;
+
+text-align: center;
+
+}
+#button{
+display:flex;
+
+
+}
+#footer{
+background-color: rgb(2, 19, 71);
+text-align: center;
+color: #f7f3f3;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
